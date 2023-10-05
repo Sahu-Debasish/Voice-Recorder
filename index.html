@@ -11,7 +11,10 @@
         <div id="controls">
             <button id="start" class="animate-button pulse">Start Recording</button>
             <button id="stop" class="animate-button" disabled>Stop Recording</button>
+            <br><br><button id="play" class="animate-button" disabled>Play</button>
+            <button id="download" class="animate-button" disabled>Download</button>
         </div>
+        <div id="duration" style="display:none;">Duration: <span id="durationSpan">0:00</span></div>
         <audio id="audio" controls></audio>
     </div>
     <script src="script.js"></script>
